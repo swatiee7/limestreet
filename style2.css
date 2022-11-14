@@ -1,0 +1,78 @@
+
+/* login inputs styling */
+.login-section {
+    float: left;
+    width: 100%;
+
+}
+
+.login-sec {
+    padding: 100px 30px;
+    position: relative;
+}
+
+
+/* background image styling */
+.banner {
+    background: url("yelowgirl.jpg") no-repeat left bottom;
+    background-size: cover;
+    height: 550px;
+    border-radius: 0 10px 10px 0;
+}
+
+.banner-text p {
+    color: #fff;
+}
+
+
+
+/* h2 heading styling with animation */
+
+h3 {
+    font-variant: small-caps;
+    text-align: center;
+    letter-spacing: 2;
+    font-variant: small-caps;
+    color: black;
+    animation-name: brand-anim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes brand-anim {
+    15% {
+        color: rgb(125, 172, 211);
+    }
+
+    17% {
+        color: rgb(216, 114, 78);
+    }
+
+    19% {
+        color: rgb(125, 172, 211);
+    }
+
+    11% {
+        color: white;
+    }
+
+    19% {
+        color: black;
+    }
+
+}
+
+@media screen and (max-width:567px) {
+   h3{
+    letter-spacing: 2;
+        font-variant: small-caps;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        color: black;
+        animation-name: brand-anim;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+   }
+}

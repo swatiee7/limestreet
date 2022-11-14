@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limesteet</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d4c866cbf2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+
+<body>
+  <br>
+  <div id="header">
+
+  </div>
+
+  <!--main -image-with-carousel-->
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div class="container-fluid" id="main-img">
+          <img class="main-img0" src="main-img.jpg" alt="main-img" style="width:100%;height:40%">
+          <h1 class="main-heading"><strong>LimeStreet<sub style="font-size:small">Love Your Curves</sub></strong></h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="container-fluid" id="main-img">
+          <img class="main-img0" src="main-img.jpg"  alt="main-img" style="width:100%;height:40%;opacity:90%" ;>
+          <h1 class="main-heading"><strong>LimeStreet<sub style="font-size:small">Love Your Curves</sub></strong></h1>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container-fluid" id="main-img">
+          <img class="main-img0" src="main-img.jpg"  alt="main-img" style="width:100%;height:40%; opacity:100%;">
+          <h1 class="main-heading"><strong>LimeStreet<sub style="font-size:small">Love Your Curves</sub></strong></h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--Featured products-->
+
+
+
+  <br>
+  <br>
+  <h2>Featured products</h2>
+  <div class="f-container">
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-s">
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="wom- 2.webp" class="card-img-top" alt="women-dress" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Black twisted dress</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+          
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="wom-11.webp" class=" one card-img-top " alt="women-dress" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">White button dress</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+
+            <div class="card" id="second">
+              <div class="image-wrapper">
+                <img src="wom-1.webp" class="card-img-top" alt="women-dress" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Pink mini dress</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+
+            <div class="card" id="second">
+              <div class="image-wrapper">
+                <img src="wom-7.webp" class="card-img-top" alt="..." style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Metallic gray dress</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+            <div class="card" id="second">
+              <div class="image-wrapper">
+                <img src="wom-12.webp" class="card-img-top" alt="..." style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Sparkle navy dress</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item medium">
+          <div class="card-s">
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="men-27.webp" class="card-img-top" alt="men-shirt" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">White shirt</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="men-28.webp" class="card-img-top" alt="men-shirt" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Red shirt</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+            <div class="card" id="second">
+              <div class="image-wrapper">
+                <img src="men-29.webp" class="card-img-top" alt="men-shirt" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Blue shirt</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+            <div class="card" id="second">
+              <div class="image-wrapper">
+                <img src="men-31.webp" class="card-img-top" alt="mn-shirt" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Gray Hoddie</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+            <div class="card" id="second">
+              <div class="image-wrapper">
+                <img src="men-23.webp" class="card-img-top" alt="men-shirt" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Black T-shirt</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-s">
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="kid-55.webp" class="card-img-top" alt="kid-dress" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Sky blue kurta</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="image-wrapper">
+                <img src="kid-77.webp" class="card-img-top" alt="kid-dress" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Colurful frok</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+            <div class="card" id="second">
+              <div class="image-wrapper">
+                <img src="kid-2.webp" class="card-img-top" alt="kid-dress" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Blue coat</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+            <div class="card" id="second">
+              <div class="image-wrapper">
+                <img src="kid-2388.webp" class="card-img-top" alt="kid-dress" style="width:13rem">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Twister pant dress</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary "onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+            <div class="card" id="second">
+              <div class="image-wrapper">
+                <img src="kid-66.webp" class="card-img-top" alt="kid-dress" style="width:13rem">
+
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Orange coat</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                  <button class="btn btn-primary " onclick="myFun()" >Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev" style="height: 50px;
+        width: 50px;padding-top:20%";>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"  style="height: 50px;
+        width: 50px;padding-top:20%";>>
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <br>
+
+  <!--New-arrivals-->
+
+  <h2>New Arrivals</h2>
+  <br>
+  <div class="container" id="women">
+    <div class="row">
+      <div class="col-sm-3">
+        <img class="nw" src="wm-1.jfif" alt="...">
+      </div>
+      <div class="col-sm-3">
+        <img class="nw" src="wm-2.jfif"  alt="...">
+      </div>
+      <div class="col-sm-3">
+        <img class="nw" src="wm-3.jfif"  alt="...">
+      </div>
+      <div class="col-sm-3">
+        <img class="nw" src="wm-1.jfif"  alt="...">
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!--Mazagines-->
+
+  <div id="mazagine">
+    <h2>MAGAZINE<span><br><small style="font-size:17px;">A world of inspiration</small></span></h2>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 15rem;">
+          <img src="mz-1.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6>Inside Limestreet</h6>
+            <p class="card-text"><strong>Limestreet move teams <br>up with zaltan</strong></p>
+            <br>
+            <a hearf="#">Read the story</a>
+          </div>
+        </div>
+        <br>
+      </div>
+      <br>
+      <div class="col">
+        <div class="card" style="width: 15rem;">
+          <img src="mz-2.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6>Inside Limestreet</h6>
+            <p class="card-text"><strong>Kids innovation story<br>Imagine that:</strong></p>
+            <br>
+            Read the story
+          </div>
+        </div>
+        <br>
+      </div>
+      <br>
+      <div class="col ">
+        <div class="card" style="width: 15rem;">
+          <img src="mz-3.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6>Inside Limestreet</h6>
+            <p class="card-text"><strong>Take a seat at<br>Barrssei Hennie</strong></p>
+            <br>
+            Read the story
+          </div>
+        </div>
+        <br>
+      </div>
+      <br>
+      <div class="col">
+        <div class="card" style="width:15rem;">
+          <img src="maz-img.jfif"class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6>Inside Limestreet</h6>
+            <p class="card-text"><strong>Paris inspired style<br> check once</strong></p>
+            <br>
+            Read th story
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div id="footer">
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
